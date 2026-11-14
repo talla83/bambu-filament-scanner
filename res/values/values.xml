@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Filament Scanner</string>
+
+    <color name="bg">#FF1F1F23</color>
+    <color name="panel">#FF2B2B30</color>
+    <color name="green">#FF00AE42</color>
+    <color name="ic_bg">#FF00AE42</color>
+
+    <style name="AppTheme" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:colorPrimary">@color/panel</item>
+        <item name="android:colorPrimaryDark">@color/panel</item>
+        <item name="android:colorAccent">@color/green</item>
+        <item name="android:statusBarColor">@color/panel</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+    </style>
+</resources>
