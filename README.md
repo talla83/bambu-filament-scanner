@@ -2,6 +2,21 @@
 
 Android-App (ab Android 8), die die NFC-Tags (MIFARE Classic 1K) von Bambu-Lab-Spulen liest und anzeigt.
 
+<p>
+  <img src="docs/screenshots/scan-bereit.png" width="250" alt="Bereit zum Scannen">
+  <img src="docs/screenshots/scan-ergebnis.png" width="250" alt="Scan-Ergebnis">
+  <img src="docs/screenshots/scan-details.png" width="250" alt="Details">
+</p>
+
+## Funktionen
+
+- Liest Material, Typ, Farbe (mit Bambu-Farbname), Durchmesser, Gewicht, Länge, Temperaturen, Trocknung und Produktionsdatum
+- Verlauf der gescannten Spulen, lokal auf dem Gerät
+- Teilen als Text inklusive Hex-Dump
+- Dunkles Design im Stil von Bambu Studio
+
+Voraussetzung: Ein Handy mit NFC, das MIFARE Classic unterstützt (z. B. Pixel; viele Samsung-Geräte nicht).
+
 ## Bauen
 
 Benötigt nur die Toolchain unter `%USERPROFILE%\.bambu-toolchain` (JDK 17, Android build-tools 34, Plattform android-34), kein Gradle und kein Android Studio.
@@ -25,3 +40,7 @@ Benötigt nur die Toolchain unter `%USERPROFILE%\.bambu-toolchain` (JDK 17, Andr
 | `src/.../ColorNames.java` | Farbnamen-Tabelle |
 
 Tag-Format: https://github.com/Bambu-Research-Group/RFID-Tag-Guide
+
+## Lizenz
+
+MIT, siehe [LICENSE](LICENSE). Kein offizielles Produkt von Bambu Lab.
