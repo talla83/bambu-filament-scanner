@@ -15,7 +15,21 @@ Android-App (ab Android 8), die die NFC-Tags (MIFARE Classic 1K) von Bambu-Lab-S
 - Teilen als Text inklusive Hex-Dump
 - Dunkles Design im Stil von Bambu Studio
 
-Voraussetzung: Ein Handy mit NFC, das MIFARE Classic unterstützt (z. B. Pixel; viele Samsung-Geräte nicht).
+## Installieren
+
+1. Die neueste `BambuFilamentScanner-*.apk` unter [Releases](../../releases/latest) herunterladen.
+2. Antippen und installieren. Android fragt einmalig, ob die App (Browser oder Dateimanager) **unbekannte Apps installieren** darf, das erlauben.
+3. Falls Play Protect warnt: **Trotzdem installieren**. Die App kommt nicht aus dem Play Store, deshalb kennt Google sie nicht.
+
+Tipp: Bricht die Installation aus der Google-App „Dateien“ ohne Meldung ab, die APK mit einem anderen Dateimanager oder direkt aus der Download-Liste des Browsers öffnen.
+
+### Voraussetzungen
+
+- Android 8.0 oder neuer
+- NFC mit **MIFARE-Classic**-Unterstützung (NXP-Chip). Die Bambu-Tags sind MIFARE Classic 1K.
+  - Funktioniert meist: Google Pixel, Xiaomi und viele weitere
+  - Oft **nicht**: viele Samsung-Geräte. Die App zeigt dann einen entsprechenden Hinweis, lesen ist leider nicht möglich.
+- Gelesen werden nur originale Bambu-Lab-Tags. Beschreiben von Tags ist nicht vorgesehen.
 
 ## Bauen
 
